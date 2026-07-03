@@ -5,7 +5,7 @@ export default function Careers() {
     <div className="max-w-7xl mx-auto px-4 py-12 font-sans text-slate-800">
       {/* Header section */}
       <div className="mb-12 border-b border-slate-100 pb-6">
-        <h2 className="text-sm font-bold text-purple-600 uppercase tracking-wider">
+        <h2 className="text-sm font-bold text-blue-600 uppercase tracking-wider">
           Career with Us
         </h2>
         <h1 className="text-4xl font-black text-slate-900 mt-2">
@@ -46,7 +46,7 @@ export default function Careers() {
               Responsible for engineering-related modifications concerning both the electrical/electronics and mechanical aspects of the equipment. Test, deploy, and implement a roll-on/roll-off program initiative to help clients with change management.
             </p>
           </div>
-          <button className="mt-4 text-purple-600 font-semibold text-xs text-left hover:underline">Learn more &rarr;</button>
+          <button className="mt-4 text-blue-700 font-semibold text-xs text-left hover:underline">Learn more &rarr;</button>
         </div>
 
         {/* Track 2 */}
@@ -57,7 +57,7 @@ export default function Careers() {
               Responsible for the production of graphic layouts (soft print and digital format) for corporate branding. Propose, design, and implement frameworks to expand the company's digital and online presence.
             </p>
           </div>
-          <button className="mt-4 text-purple-600 font-semibold text-xs text-left hover:underline">Learn more &rarr;</button>
+          <button className="mt-4 text-blue-700 font-semibold text-xs text-left hover:underline">Learn more &rarr;</button>
         </div>
 
         {/* Track 3 */}
@@ -68,7 +68,7 @@ export default function Careers() {
               Gain exposure across cross-functional business operations ranging from marketing and human resources to finance and logistics coordination. Collaborate tightly across distinct teams.
             </p>
           </div>
-          <button className="mt-4 text-purple-600 font-semibold text-xs text-left hover:underline">Learn more &rarr;</button>
+          <button className="mt-4 text-blue-600 font-semibold text-xs text-left hover:underline">Learn more &rarr;</button>
         </div>
 
       </div>

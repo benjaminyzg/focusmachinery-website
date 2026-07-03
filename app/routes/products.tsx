@@ -3,7 +3,7 @@ export default function Products() {
     <div className="max-w-7xl mx-auto px-4 py-12">
       {/* Page Header */}
       <div className="mb-12">
-        <h2 className="text-sm font-bold text-purple-600 uppercase tracking-wider">
+        <h2 className="text-sm font-bold text-blue-600 uppercase tracking-wider">
           Equipment Portfolio
         </h2>
         <h1 className="text-3xl font-black text-slate-900 mt-2">
@@ -44,7 +44,7 @@ export default function Products() {
             <h3 className="text-xl font-bold text-slate-900">
               KLEENTEK: Electrostatic Oil Cleaner (EOC) (TP Series)
             </h3>
-            <span className="inline-block bg-purple-50 text-purple-600 text-xs font-semibold px-2 py-1 rounded mt-2">
+            <span className="inline-block bg-blue-50 text-blue-600 text-xs font-semibold px-2 py-1 rounded mt-2">
               Varnish & Oil Oxidation Removal (Digital)
             </span>
             <p className="text-slate-600 text-sm mt-3">

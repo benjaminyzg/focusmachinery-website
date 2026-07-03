@@ -4,8 +4,8 @@ export default function Services() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
       <div className="mb-10 text-center md:text-left">
-        <span className="text-xs font-bold uppercase tracking-widest text-indigo-600 block mb-2">Our Capabilities</span>
-        <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl">
+        <span className="text-sm font-bold uppercase tracking-widest text-blue-700 block mb-2">Our Capabilities</span>
+        <h2 className="text-xl font-bold text-slate-900 tracking-tight sm:text-4xl">
           Technical Maintenance & Fluid Engineering Services
         </h2>
         <p className="mt-3 max-w-3xl text-lg text-slate-500">
@@ -118,6 +118,15 @@ export default function Services() {
             </ul>
           </div>
         </div>
+
+      {/* Add this right before the closing tag of your main container, after the last service card */}
+      <div className="mt-12 text-left">
+      <a href="/contact"
+      className="inline-flex items-center justify-left px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-800 hover:bg-blue-700 shadow-sm transition-colors duration-200"
+      >
+          Contact Us to Learn More
+      </a>
+      </div>
       </div>
     </div>
   );
