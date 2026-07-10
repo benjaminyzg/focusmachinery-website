@@ -91,6 +91,62 @@ export default function Products() {
             <img src="/images/product-dh-big.png" alt="DH Series" className="max-h-full max-w-full object-contain" />
           </div>
         </div>
+
+        {/* 5. KLEENTEK: Cartridge Collector & Filter */}
+        <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex-1">
+            <h3 className="text-xl font-bold text-slate-900">
+              KLEENTEK: Cartridge Collector & Filter
+            </h3>
+            <span className="inline-block bg-blue-50 text-blue-600 text-xs font-semibold px-2 py-1 rounded mt-2">
+              Consumable Replacement Parts for EOC & DH Series
+            </span>
+            <p className="text-slate-600 text-sm mt-3">
+              Designed to provide a high-efficiency, low-maintenance solution for the removal of sub-micron solid particulates and moisture from industrial lubricants.
+            </p>
+          </div>
+          <div className="w-full md:w-48 h-32 bg-slate-50 rounded-lg flex items-center justify-center">
+            <img src="/images/product-cc-big.png" alt="Collector & Filter" className="max-h-full max-w-full object-contain" />
+          </div>
+        </div>
+
+        {/* 6. KLEENTEK: Accessories */}
+        <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex-1">
+            <h3 className="text-xl font-bold text-slate-900">
+              KLEENTEK: Accessories
+            </h3>
+            <span className="inline-block bg-blue-50 text-blue-600 text-xs font-semibold px-2 py-1 rounded mt-2">
+              Auxiliary Accessories for EOC & DH Series
+            </span>
+            <p className="text-slate-600 text-sm mt-3">
+              Accessory components designed to enhance the performance and longevity of KLEENTEK EOC and DH series units, including pre-filters, replacement cartridges, and specialized fittings for various industrial applications.
+            </p>
+          </div>
+          <div className="w-full md:w-48 h-32 bg-slate-50 rounded-lg flex items-center justify-center">
+            <img src="/images/accessories.png" alt="Accessories" className="max-h-full max-w-full object-contain" />
+          </div>
+        </div>
+
+        {/* 7. KLEENTEK: Customized Solutions */}
+        <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex-1">
+            <h3 className="text-xl font-bold text-slate-900">
+              KLEENTEK: Customized Solutions
+            </h3>
+            <span className="inline-block bg-blue-50 text-blue-600 text-xs font-semibold px-2 py-1 rounded mt-2">
+              Customized Solutions for Specialized Applications
+            </span>
+            <p className="text-slate-600 text-sm mt-3">
+              This segment is designed for specialized industrial applications requiring enhanced filtration and moisture control. It integrates seamlessly with existing KLEENTEK systems to provide additional protection against contaminants in high-demand environments.
+            </p>
+          </div>
+          <div className="w-full md:w-48 h-32 bg-slate-50 rounded-lg flex items-center justify-center">
+            <img src="/images/customized-solutions.png" alt="Customized Solutions" className="max-h-full max-w-full object-contain" />
+          </div>
+        </div>
+
+        
       </div>
     </div>
   );

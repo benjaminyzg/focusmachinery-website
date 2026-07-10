@@ -14,6 +14,7 @@ export default function Root() {
       { name: "Dehydrator Units (DH Series)", href: "/products#dehydrator" },
       { name: "Electrostatic Oil Cleaner with Dehydrator (EDH Series)", href: "/products#edh" },
       { name: "Cartridge Collectors & Filters", href: "/products#collectors&filters" },
+      { name: "Contamination Checker Unit", href: "/products#contamination-checker" },
       { name: "Accessories", href: "/products#accessories" },
     ],
     services: [
@@ -21,6 +22,14 @@ export default function Root() {
       { name: "Consultancy & Advisory", href: "/services#consultancy" },
       { name: "Training Programme", href: "/services#training" },
       { name: "Technical Support", href: "/services#support" },
+    ],
+    industries: [
+      { name: "Plastics Manufacturing", href: "/industries#plastics-manufacturing" },
+      { name: "Maritime & Offshore", href: "/industries#maritime-offshore" },
+      { name: "Power Generation", href: "/industries#power-generation" },
+      { name: "Paper & Pulp", href: "/industries#paper-pulp" },
+      { name: "Automotive", href: "/industries#automotive" },
+      { name: "Iron Mills", href: "/industries#iron-mills" },
     ],
     resources: [
       { name: "Career with Us", href: "/careers" }, // Your clean standalone page from earlier
@@ -111,6 +120,26 @@ export default function Root() {
                 </div>
               )}
             </div>
+
+            {/* INDUSTRIES MENU WITH SUB-MENU */}
+              <div 
+                className="relative pb-3"
+                onMouseEnter={() => setOpenMenu("industries")}
+                onMouseLeave={() => setOpenMenu(null)}
+              >
+                <NavLink to="/industries" className={({ isActive }) => `transition-colors ${isActive ? 'text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}>
+                  Industries <span className="text-[10px]">▼</span>
+                </NavLink>
+                {openMenu === "industries" && (
+                  <div className="absolute left-0 mt-3 w-56 bg-white border border-slate-100 rounded-md shadow-lg py-1 animate-fadeIn">
+                    {subMenus.industries.map((item) => (
+                      <a key={item.name} href={item.href} className="block px-4 py-2 text-m text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition">
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
 
             {/* ABOUT US MENU WITH SUB-MENU */}
             <div 

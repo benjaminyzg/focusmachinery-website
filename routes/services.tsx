@@ -96,7 +96,7 @@ export default function Services() {
             </span>
           </div>
           
-          <div className="mt-5">
+          {<div className="mt-5">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Our Engineering Approach</h4>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 text-sm text-slate-600">
               <li className="flex items-start gap-2.5">
@@ -116,17 +116,8 @@ export default function Services() {
                 <div><strong>Lifecycle Management:</strong> Planning long-term fluid conservation strategies to lower total oil consumption cost.</div>
               </li>
             </ul>
-          </div>
+          </div>}
         </div>
-
-      {/* Add this right before the closing tag of your main container, after the last service card */}
-      <div className="mt-12 text-left">
-      <a href="/contact"
-      className="inline-flex items-center justify-left px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-800 hover:bg-blue-700 shadow-sm transition-colors duration-200"
-      >
-          Contact Us to Learn More
-      </a>
-      </div>
       </div>
     </div>
   );

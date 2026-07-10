@@ -25,7 +25,7 @@ export default function Home() {
     
       {/* Left Column: Heading & Paragraph (Takes up 3/5 width on desktop) */}
         <div className="md:col-span-3 space-y-4">
-          <h2 className="text-xs font-semibold text-emerald-600 uppercase tracking-widest">
+          <h2 className="text-xs font-semibold text-purple-500 uppercase tracking-widest">
             Authorized Regional Partner
           </h2>
           <h3 className="text-2xl font-bold text-slate-900 tracking-tight">
@@ -62,49 +62,154 @@ export default function Home() {
       </div>
       </section>
 
-      {/* Section 3: Industrial Applications & Operational Impact */}
-<section className="mt-16 mb-16 max-w-5xl mx-auto px-4 border-t border-slate-100 pt-16">
-  <div className="space-y-6">
-    <div className="text-center sm:text-left space-y-2">
-      <h2 className="text-xs font-semibold text-purple-600 uppercase tracking-widest">
-        Target Applications
-      </h2>
-      <h3 className="text-2xl font-bold text-slate-900 tracking-tight">
-        Industries We Serve & Operational Impact
-      </h3>
-      <p className="text-slate-600 max-w-2xl text-base">
-        Our specialized fluid engineering and KLEENTEK electrostatic purification systems deliver critical protection across diverse, high-stakes industrial environments.
-      </p>
-    </div>
-
-    {/* Industry Grid Layout */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
-      
-      {/* Industry 1 */}
-      <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white">
-        <h4 className="font-bold text-slate-900 text-lg mb-2">Power Generation</h4>
-        <p className="text-sm text-slate-600 leading-relaxed">
-          Prevents varnish build-up on critical gas and steam turbine control valves, ensuring reliable startup sequences and eliminating tripping hazards.
-        </p>
-      </div>
-
-      {/* Industry 2 */}
-      <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white">
-        <h4 className="font-bold text-slate-900 text-lg mb-2">Maritime & Offshore</h4>
-        <p className="text-sm text-slate-600 leading-relaxed">
-          Protects marine hydraulic steering gear, thrusters, and propulsion systems from water contamination and aggressive salt-air micro-wear.
-        </p>
-      </div>
-
-      {/* Industry 3 */}
-      <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white">
-        <h4 className="font-bold text-slate-900 text-lg mb-2">Manufacturing & Plastics</h4>
-        <p className="text-sm text-slate-600 leading-relaxed">
-          Safeguards high-precision injection molding machines, hydraulic presses, and automated stamping lines from servo-valve sticking.
-        </p>
-      </div>
+      {/* Section 3: Product Range & Services */}
+      <section className="py-10 border-t border-gray-100">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
+          <div>
+            <span className="text-xs font-bold uppercase tracking-widest text-blue-700">
+              Product Range & Engineering Services 
+            </span>
+            <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 mt-1">
+              Our Products & Engineering Services
+            </h2>
+            <p className="text-sm text-slate-500 mt-2 max-w-2xl">
+              From advanced industrial purification equipment to specialized oil lifecycle services, 
+              we ensure operational efficiency and fluid optimization.
+            </p>
+          </div>
+          <div className="mt-4 md:mt-0">
+            <a 
+              href="/products" 
+              className="inline-block bg-gray-700 hover:bg-gray-800 text-white text-xs font-bold uppercase tracking-wider px-5 py-3 rounded-md transition-colors"
+            >
+              View Full Catalog &rarr;
+            </a>
           </div>
         </div>
+
+        {/* Product Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Card 1 */}
+            <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 flex flex-col">
+              <h3 className="font-bold text-slate-900 text-lg mb-2">Industrial Equipment</h3>
+              <p className="text-xs text-slate-600 leading-relaxed mb-4">
+                Deploying standard KLEENTEK Electrostatic Oil Cleaners (EOC & TP Series) and Water Absorption/Dehydration units directly into your operations.
+              </p>
+              <a href="/products#machinery" className="mt-auto text-xs font-bold text-blue-700 hover:underline">
+                Explore Equipment &rarr;
+              </a>
+            </div>
+
+          {/* Card 2 */}
+            <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 flex flex-col">
+              <h3 className="font-bold text-slate-900 text-lg mb-2">Consumables & Elements</h3>
+              <p className="text-xs text-slate-600 leading-relaxed mb-4">
+                Genuine certified Japanese cartridge collectors, coalescing elements, and replacement filters built specifically to combat sub-micron varnish.
+              </p>
+              <a href="/products#consumables" className="mt-auto text-xs font-bold text-blue-700 hover:underline">
+                Browse Consumables &rarr;
+              </a>
+            </div>
+
+          {/* Card 3 (Apply the same fix here) */}
+          <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 flex flex-col">
+            <h3 className="font-bold text-slate-900 text-lg mb-2">Engineering Services</h3>
+            <p className="text-xs text-slate-600 leading-relaxed mb-4">
+              Comprehensive laboratory fluid analysis, on-site machinery commissioning, technical support, and structured knowledge-transfer training.
+            </p>
+            <a href="/services" className="mt-auto text-xs font-bold text-blue-700 hover:underline">
+              Learn About Services &rarr;
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: Industrial Applications & Operational Impact */}
+      <section className="mt-16 mb-16 max-w-5xl mx-auto px-4 border-t border-slate-100 pt-16">
+        <div className="space-y-6">
+          <div className="text-center sm:text-left space-y-2">
+            <h2 className="text-xs font-semibold text-rose-600 uppercase tracking-widest">
+              Target Applications & Use-Cases
+            </h2>
+            <h3 className="text-2xl font-bold text-slate-900 tracking-tight">
+              Industries We Serve & Operational Impact
+            </h3>
+            <p className="text-slate-600 max-w-2xl text-base">
+              Our specialized fluid engineering and KLEENTEK electrostatic purification systems deliver critical protection across diverse, high-stakes industrial environments.
+            </p>
+          </div>
+
+      {/* Industry Grid Layout */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+      
+        {/* Industry 1 */}
+        <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white flex flex-col">
+            <h4 className="font-bold text-slate-900 text-lg mb-2">Power Generation</h4>
+            <p className="text-sm text-slate-600 leading-relaxed mb-4">
+              Prevents varnish build-up on critical gas and steam turbine control valves, ensuring reliable startup sequences and eliminating tripping hazards.
+            </p>
+            <a href="/industries#power-generation" className="mt-auto text-xs font-bold text-rose-600 hover:underline">
+              Learn more &rarr;
+            </a>
+        </div>
+
+        {/* Industry 2 */}
+        <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white flex flex-col">
+            <h4 className="font-bold text-slate-900 text-lg mb-2">Maritime & Offshore</h4>
+            <p className="text-sm text-slate-600 leading-relaxed mb-4">
+              Protects marine hydraulic steering gear, thrusters, and propulsion systems from water contamination and aggressive salt-air micro-wear.
+            </p>
+            <a href="/industries#maritime-offshore" className="mt-auto text-xs font-bold text-rose-600 hover:underline">
+              Learn more &rarr;
+            </a>
+        </div>
+
+        {/* Industry 3 */}
+        <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white flex flex-col">
+            <h4 className="font-bold text-slate-900 text-lg mb-2">Manufacturing & Plastics</h4>
+            <p className="text-sm text-slate-600 leading-relaxed mb-4">
+              Safeguards high-precision injection molding machines, hydraulic presses, and automated stamping lines from servo-valve sticking.
+            </p>
+            <a href="/industries#manufacturing-plastics" className="mt-auto text-xs font-bold text-rose-600 hover:underline">
+              Learn more &rarr;
+            </a>
+        </div>
+
+        {/* Industry 4 */}
+        <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white flex flex-col">
+            <h4 className="font-bold text-slate-900 text-lg mb-2">Iron Mills</h4>
+            <p className="text-sm text-slate-600 leading-relaxed mb-4">
+              Protects hydraulic systems in iron mills from extreme temperatures and contamination.
+            </p>
+            <a href="/industries#iron-mills" className="mt-auto text-xs font-bold text-rose-600 hover:underline">
+              Learn more &rarr;
+            </a>
+        </div>
+
+        {/* Industry 5 */}
+        <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white flex flex-col">
+            <h4 className="font-bold text-slate-900 text-lg mb-2">Paper & Pulp</h4>
+            <p className="text-sm text-slate-600 leading-relaxed mb-4">
+              Protects hydraulic systems and pulp processing equipment from contamination and wear.
+            </p>
+            <a href="/industries#paper-pulp" className="mt-auto text-xs font-bold text-rose-600 hover:underline">
+              Learn more &rarr;
+            </a>
+        </div>
+
+        {/* Industry 6*/}
+        <div className="p-5 border border-slate-200/60 rounded-xl hover:shadow-md transition-shadow duration-200 bg-white flex flex-col">
+            <h4 className="font-bold text-slate-900 text-lg mb-2">Automotive</h4>
+            <p className="text-sm text-slate-600 leading-relaxed mb-4">
+              Protects automotive hydraulic systems and manufacturing equipment from contamination and wear.
+            </p>
+            <a href="/industries#automotive" className="mt-auto text-xs font-bold text-rose-600 hover:underline">
+              Learn more &rarr;
+            </a>
+        </div>
+
+      </div>
+      </div>
       </section>
 
       {/* Section 4: Call-to-Action */}
@@ -148,9 +253,10 @@ export default function Home() {
 
       {/*/ 1. HERO SECTION */}
       <section className="py-6 max-w-3xl">
-        <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl leading-tight">
+        <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-4xl leading-tight">
           Maximize Machinery Lifespan. <br />
-          <span className="text-blue-700">Eliminate Hydraulic Varnish & Contamination.</span>
+          <span className="text-blue-600">Eliminate Hydraulic Varnish & Contamination.</span> <br />
+          <span className="text-green-600">Creating a more sustainable future for generations</span>
         </h2>
         <p className="mt-4 text-base text-slate-500 leading-relaxed">
           Focus Machinery Pte Ltd provides industry-leading sub-micron electrostatic oil cleaning and dehydration systems. We help Singapore's manufacturing, maritime, and power generation sectors prevent premature machine failure and dramatically cut down oil consumption.
@@ -158,7 +264,7 @@ export default function Home() {
         <div className="mt-6">
           <Link 
             to="/contact#rfq" 
-            className="inline-block bg-slate-800 hover:bg-blue-750 text-white text-xs font-bold uppercase tracking-wider px-5 py-3 rounded-md transition-colors"
+            className="inline-block bg-gray-600 hover:bg-gray-700 text-white text-xs font-bold uppercase tracking-wider px-5 py-3 rounded-md transition-colors"
           >
             Request a Technical Quote →
           </Link>
@@ -193,25 +299,25 @@ export default function Home() {
       </section>
 
       {/* 3. BUSINESS PERFORMANCE INDICATORS */}
-      <section className="bg-slate-50 rounded-xl p-8 border border-slate-100">
-        <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 text-center">
-          Why Companies Trust Focus Machinery
-        </h3>
-        <div className="grid gap-6 sm:grid-cols-3 text-center">
-          <div>
-            <p className="text-3xl font-black text-slate-900">Sub-Micron</p>
-            <p className="text-xs text-slate-500 mt-1 uppercase tracking-wider font-semibold">Contamination Extraction</p>
+        <section className="bg-slate-50 rounded-xl p-8 border border-slate-100">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 text-center">
+            Why Companies Trust Focus Machinery
+          </h3>
+          <div className="grid gap-6 sm:grid-cols-3 text-center">
+            <div>
+              <p className="text-3xl font-black text-slate-900">Sub-Micron</p>
+              <p className="text-xs text-slate-500 mt-1 uppercase tracking-wider font-semibold">Contamination Extraction</p>
+            </div>
+            <div>
+              <p className="text-3xl font-black text-blue-600">Up to 70%</p>
+              <p className="text-xs text-slate-500 mt-1 uppercase tracking-wider font-semibold">Fluid Lifespan Extension</p>
+            </div>
+            <div>
+              <p className="text-3xl font-black text-slate-900">Zero</p>
+              <p className="text-xs text-slate-500 mt-1 uppercase tracking-wider font-semibold">Additive Depletion Risk</p>
+            </div>
           </div>
-          <div>
-            <p className="text-3xl font-black text-blue-600">Up to 70%</p>
-            <p className="text-xs text-slate-500 mt-1 uppercase tracking-wider font-semibold">Fluid Lifespan Extension</p>
-          </div>
-          <div>
-            <p className="text-3xl font-black text-slate-900">Zero</p>
-            <p className="text-xs text-slate-500 mt-1 uppercase tracking-wider font-semibold">Additive Depletion Risk</p>
-          </div>
-        </div>
-      </section>
+        </section>
 
     </div>
   );
