@@ -11,7 +11,7 @@ Industrial machinery operations face significant downtime due to fluid degradati
 The application highlights core capabilities in:
 * **Specialized Fluid Engineering Setups:** Custom hydraulic and lubrication reliability systems optimized for heavy machinery and demanding industrial environments.
 * **Electrostatic Fluid Purification:** Leveraging certified **Japanese KLEENTEK** electrostatic purification configurations. Unlike standard mechanical filters, these systems use electrostatic fields to remove sub-micron varnish, tars, and oxidation products directly from industrial oils, dramatically extending component lifespans.
-* **Target Segments:** Built to market solutions tailored for Precision Engineering, Plastics Manufacturing, and the Marine & Offshore sectors.
+* **Target Segments:** Built to market solutions tailored for Precision Engineering, Plastics Manufacturing, Power Generations and the Marine & Offshore sectors.
 
 ---
 
