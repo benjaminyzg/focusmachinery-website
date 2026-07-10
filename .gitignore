@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 # Local Netlify folder
 .netlify
+=======
+.DS_Store
+.env
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+>>>>>>> acf8093de18cae4b8a13453ab4c8369272fbb051
