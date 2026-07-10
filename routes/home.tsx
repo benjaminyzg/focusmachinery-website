@@ -69,7 +69,7 @@ export default function Home() {
             <span className="text-xs font-bold uppercase tracking-widest text-blue-700">
               Product Range & Engineering Services 
             </span>
-            <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 mt-1">
+            <h2 className="text-2xl font-bold tracking-tight text-slate-900 mt-1">
               Our Products & Engineering Services
             </h2>
             <p className="text-sm text-slate-500 mt-2 max-w-2xl">
