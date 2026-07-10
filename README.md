@@ -1,4 +1,4 @@
-# Focus Machinery Portfolio
+# Focus Machinery, Singapore Portfolio
 
 A high-performance, responsive portfolio web application designed for a modern industrial engineering brand. This platform highlights specialized fluid engineering setups, technical services, and advanced purification systems.
 
