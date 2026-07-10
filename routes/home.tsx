@@ -67,7 +67,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-blue-700">
-              Product Range & Engineering Services 
+              Product Range & Professional Services 
             </span>
             <h2 className="text-2xl font-bold tracking-tight text-slate-900 mt-1">
               Our Products & Engineering Services
